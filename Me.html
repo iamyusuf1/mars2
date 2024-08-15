@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c8bbea7e24.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bg-zinc-100 dark:bg-zinc-800 p-4 rounded-lg max-w-md mx-auto">
+      <div class="bg-gradient-to-r from-teal-400 to-blue-500 p-4 rounded-lg text-white flex items-center">
+        <img src="https://placehold.co/50x50" alt="Logo" class="rounded-full mr-4">
+        <div>
+          <div class="font-bold">DHARTI</div>
+          <div class="text-sm">918142139586</div>
+          <div class="text-sm">ID:782847</div>
+        </div>
+        <div class="ml-auto">
+          <img src="https://placehold.co/20x20" alt="Settings" class="rounded-full">
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-4">
+        <div class="bg-blue-700 text-white p-4 rounded-lg text-center">
+          <i class="fa-solid fa-wallet"></i>
+          <div>Recharge</div>
+        </div>
+        <div class="bg-blue-700 text-white p-4 rounded-lg text-center">
+          <i class="fa"></i>
+          <i class="fa-solid fa-sack-xmark"></i>
+          <div>Withdraws</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0</div>
+          <div class="text-sm">Recharge wallet</div>
+        </div>
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0</div>
+          <div class="text-sm">Balance wallet</div>
+        </div>
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0RS</div>
+          <div class="text-sm">Product</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-4 mt-4">
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0</div>
+          <div class="text-sm">B-10%</div>
+        </div>
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0</div>
+          <div class="text-sm">C-5%</div>
+        </div>
+        <div class="bg-orange-400 text-white p-4 rounded-lg text-center">
+          <div>0</div>
+          <div class="text-sm">D-2%</div>
+        </div>
+      </div>
+      <button class="bg-gradient-to-r from-teal-400 to-green-500 text-white w-full p-4 rounded-lg mt-4">
+        View team commissions
+      </button>
+      <div class="grid grid-cols-4 gap-4 mt-4 text-center text-xs">
+        <div>
+          <i class="fa-brands fa-product-hunt fa-bounce fa-xl" style="color: #FFD43B;"></i>
+          <div>My product</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-person-circle-plus fa-beat-fade fa-xl" style="color: #e9f108;"></i>
+          <div>Invitation</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-dollar-sign fa-fade fa-xl" style="color: #FFD43B;"></i>
+          <div>Funding details</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-hand-holding-dollar fa-flip fa-xl" style="color: #FFD43B;"></i>
+          <div>Redeem bonus</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-comment-sms fa-beat-fade fa-xl" style="color: #FFD43B;"></i>
+          <div>Customer service</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-building-columns fa-shake fa-xl" style="color: #FFD43B;"></i>
+          <div>Bind bank account</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-earth-americas fa-spin fa-xl" style="color: #FFD43B;"></i>
+          <div>Company website</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-people-group fa-beat fa-xl" style="color: #FFD43B;"></i>
+          <div>My teams</div>
+        </div>
+        <div>
+          <i class="fa-solid fa-download fa-bounce fa-xl" style="color: #FFD43B;"></i>
+          <div>App Download</div>
+        </div>
+      </div>
+      <div class="bg-white text-black flex justify-around py-2 rounded-b-lg mt-4">
+        <button class="flex flex-col items-center">
+          <i class="fas fa-shopping-cart mb-1" onclick="redirectToHome()"></i>
+          <span>Home</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-shopping-cart mb-1"></i>
+          <span>Product</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-user mb-1"></i>
+          <span>Me</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-gift mb-1"></i>
+          <span>Draw</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-newspaper mb-1"></i>
+          <span>News</span>
+        </button>
+      </div>
+    </div>
+    <script>
+      function redirectToHome() {
+        // Assuming the login page is in the same directory
+        window.location.href = 'Home.html';
+      }
+    </script>
+  </body>
+</html>
