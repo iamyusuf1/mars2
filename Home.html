@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Dharti!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/c8bbea7e24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-teal-400 to-cyan-500 p-4">
+    <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+      <div>
+        <div class="flex justify-between items-center mb-6">
+          <div class="relative">
+            <button class="flex items-center text-zinc-700">
+              <i class="fas fa-globe mr-2"></i>
+              English
+              <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <h1 class="text-4xl font-bold text-center text-blue-900 mb-2">Welcome to Dharti!</h1>
+        <div class="mb-4">
+          <video class="w-full rounded" controls>
+            <source src="8.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="bg-orange-100 text-orange-800 p-2 mb-4 rounded">
+          <p>🚀 g in short supply. [Retro series] is in sufficient quantity, but no one is buyin</p>
+        </div>
+        <div class="bg-purple-500 p-4 rounded mb-4">
+          <h2 class="text-center mb-4 text-white">Remaining times: 0</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white bg-opacity-20 p-4 rounded text-center">
+              <p class="text-2xl mb-2">?</p>
+              <p>2 times</p>
+              <p>60-800RS</p>
+            </div>
+            <div class="bg-white bg-opacity-20 p-4 rounded text-center">
+              <p class="text-2xl mb-2">?</p>
+              <p>6 times</p>
+              <p>350-900RS</p>
+            </div>
+            <div class="bg-white bg-opacity-20 p-4 rounded text-center">
+              <p class="text-2xl mb-2">?</p>
+              <p>12 times</p>
+              <p>700-5000RS</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-teal-400 p-4 rounded mb-4">
+          <h2 class="text-center mb-4 text-white">Receive weekly salary</h2>
+          <div class="space-y-4">
+            <div class="flex items-center justify-between bg-teal-500 p-2 rounded">
+              <div class="flex items-center">
+                <img src="https://placehold.co/50" alt="Avatar" class="rounded-full mr-2">
+                <div>
+                  <p>Invite: 0/3</p>
+                  <p>Direct invitation this week</p>
+                </div>
+              </div>
+              <button class="bg-zinc-200 text-black px-2 py-1 rounded">200RS</button>
+            </div>
+            <div class="flex items-center justify-between bg-teal-500 p-2 rounded">
+              <div class="flex items-center">
+                <img src="https://placehold.co/50" alt="Avatar" class="rounded-full mr-2">
+                <div>
+                  <p>Invite: 0/5</p>
+                  <p>Direct invitation this week</p>
+                </div>
+              </div>
+              <button class="bg-zinc-200 text-black px-2 py-1 rounded">300RS</button>
+            </div>
+            <div class="flex items-center justify-between bg-teal-500 p-2 rounded">
+              <div class="flex items-center">
+                <img src="https://placehold.co/50" alt="Avatar" class="rounded-full mr-2">
+                <div>
+                  <p>Invite: 0/10</p>
+                  <p>Direct invitation this week</p>
+                </div>
+              </div>
+              <button class="bg-zinc-200 text-black px-2 py-1 rounded">500RS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white text-black flex justify-around py-2 rounded-b-lg">
+        <button class="flex flex-col items-center">
+          <i class="fas fa-home mb-1"></i>
+          <span>Home</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-shopping-cart mb-1"></i>
+          <span>Product</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-user mb-1" onclick="redirectToMe()"></i>
+          <span>Me</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-gift mb-1"></i>
+          <span>Draw</span>
+        </button>
+        <button class="flex flex-col items-center">
+          <i class="fas fa-newspaper mb-1"></i>
+          <span>News</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    function redirectToMe() {
+      // Assuming the login page is in the same directory
+      window.location.href = 'Me.html';
+    }
+  </script>
+</body>
+</html>
