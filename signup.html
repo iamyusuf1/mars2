@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/c8bbea7e24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-teal-400 to-cyan-500 p-4">
+    <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      <div class="flex justify-between items-center mb-6">
+        <button class="text-white text-lg">&lt; Back</button>
+        <h1 class="text-white text-lg">DHARTI</h1>
+      </div>
+      <div class="text-center mb-6">
+        <h1 class="text-4xl font-bold text-blue-900">DHARTI</h1>
+        <p class="text-blue-900">Save tree Save life</p>
+      </div>
+      <form id="signupForm" class="space-y-4">
+        <div class="flex items-center bg-white rounded-full shadow-md p-2">
+          <i class="fas fa-phone ml-2 text-zinc-500"></i>
+          <span class="text-zinc-500">+ 91 |</span>
+          <input type="text" placeholder="Please enter mobile number" class="flex-1 bg-transparent border-none focus:outline-none ml-2" />
+        </div>
+        <div class="flex items-center bg-white rounded-full shadow-md p-2">
+          <i class="fas fa-comment ml-2 text-zinc-500"></i>
+          <input type="text" placeholder="please enter" class="flex-1 bg-transparent border-none focus:outline-none ml-2" />
+          <button type="button" class="bg-teal-500 text-white rounded-full px-4 py-1">Send</button>
+        </div>
+        <div class="flex items-center bg-white rounded-full shadow-md p-2">
+          <i class="fas fa-lock ml-2 text-zinc-500"></i>
+          <input type="password" placeholder="Please enter the login password" class="flex-1 bg-transparent border-none focus:outline-none ml-2" />
+        </div>
+        <div class="flex items-center bg-white rounded-full shadow-md p-2">
+          <i class="fas fa-user ml-2 text-zinc-500"></i>
+          <input type="text" placeholder="Please enter the invitation code" class="flex-1 bg-transparent border-none focus:outline-none ml-2" />
+        </div>
+        <button type="button" class="w-full bg-blue-900 text-white rounded-full py-2" onclick="redirectToLogin()">Sign up</button>
+      </form>
+      <p class="text-center mt-4">Already have an account? <a href="#" class="text-blue-900 font-bold" onclick="redirectToLogin()">Login</a></p>
+    </div>
+  </div>
+
+  <script>
+    function redirectToLogin() {
+      // Assuming the login page is in the same directory
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
